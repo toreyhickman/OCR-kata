@@ -7,6 +7,10 @@ class AccountNumber
     digits.reduce("") { |aggregate, digit| "#{aggregate}#{digit.to_int}" }
   end
   
+  def ==(other)
+    self.to_s == other.to_s
+  end
+  
   private
   attr_accessor :digits
 end
