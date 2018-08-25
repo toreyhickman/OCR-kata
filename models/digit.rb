@@ -55,7 +55,7 @@ class Digit
     self.scan = scan
   end
   
-  def to_int
+  def to_i
     SCANNED_INTEGER_REPRESENTATIONS[scan]
   end
   

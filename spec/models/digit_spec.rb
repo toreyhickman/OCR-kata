@@ -9,7 +9,7 @@ RSpec.describe Digit do
                      "   "
       
       digit = Digit.new(scanned_zero)
-      expect(digit.to_int).to eq 0
+      expect(digit.to_i).to eq 0
     end
     
     it "converts to 1" do
@@ -19,7 +19,7 @@ RSpec.describe Digit do
                     "   "
 
       digit = Digit.new(scanned_one)
-      expect(digit.to_int).to eq 1
+      expect(digit.to_i).to eq 1
     end
 
     it "converts to 2" do
@@ -29,7 +29,7 @@ RSpec.describe Digit do
                     "   "
 
       digit = Digit.new(scanned_two)
-      expect(digit.to_int).to eq 2
+      expect(digit.to_i).to eq 2
     end
 
     it "converts to 3" do
@@ -39,7 +39,7 @@ RSpec.describe Digit do
                       "   "
 
       digit = Digit.new(scanned_three)
-      expect(digit.to_int).to eq 3
+      expect(digit.to_i).to eq 3
     end
 
     it "converts to 4" do
@@ -49,7 +49,7 @@ RSpec.describe Digit do
                      "   "
 
       digit = Digit.new(scanned_four)
-      expect(digit.to_int).to eq 4
+      expect(digit.to_i).to eq 4
     end
 
     it "converts to 5" do
@@ -59,7 +59,7 @@ RSpec.describe Digit do
                      "   "
 
       digit = Digit.new(scanned_five)
-      expect(digit.to_int).to eq 5
+      expect(digit.to_i).to eq 5
     end
 
     it "converts to 6" do
@@ -69,7 +69,7 @@ RSpec.describe Digit do
                     "   "
 
       digit = Digit.new(scanned_six)
-      expect(digit.to_int).to eq 6
+      expect(digit.to_i).to eq 6
     end
 
     it "converts to 7" do
@@ -79,7 +79,7 @@ RSpec.describe Digit do
                       "   "
 
       digit = Digit.new(scanned_seven)
-      expect(digit.to_int).to eq 7
+      expect(digit.to_i).to eq 7
     end
 
     it "converts to 8" do
@@ -89,7 +89,7 @@ RSpec.describe Digit do
                       "   "
 
       digit = Digit.new(scanned_eight)
-      expect(digit.to_int).to eq 8
+      expect(digit.to_i).to eq 8
     end
 
     it "converts to 9" do
@@ -99,7 +99,7 @@ RSpec.describe Digit do
                      "   "
 
       digit = Digit.new(scanned_nine)
-      expect(digit.to_int).to eq 9
+      expect(digit.to_i).to eq 9
     end
   end
 end
