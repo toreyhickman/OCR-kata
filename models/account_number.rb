@@ -4,7 +4,7 @@ class AccountNumber
   end
   
   def to_s
-    digits.reduce("") { |aggregate, digit| "#{aggregate}#{digit.to_int}" }
+    digits.reduce("") { |aggregate, digit| "#{aggregate}#{digit.to_i}" }
   end
   
   def ==(other)

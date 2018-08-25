@@ -3,15 +3,15 @@ require_relative "../../models/account_number"
 RSpec.describe AccountNumber do
   let(:digits) do
     [
-      double(:digit_one, to_int: 1),
-      double(:digit_two, to_int: 2),
-      double(:digit_three, to_int: 3),
-      double(:digit_four, to_int: 4),
-      double(:digit_five, to_int: 5),
-      double(:digit_six, to_int: 6),
-      double(:digit_seven, to_int: 7),
-      double(:digit_eight, to_int: 8),
-      double(:digit_nine, to_int: 9)
+      double(:digit_one, to_i: 1),
+      double(:digit_two, to_i: 2),
+      double(:digit_three, to_i: 3),
+      double(:digit_four, to_i: 4),
+      double(:digit_five, to_i: 5),
+      double(:digit_six, to_i: 6),
+      double(:digit_seven, to_i: 7),
+      double(:digit_eight, to_i: 8),
+      double(:digit_nine, to_i: 9)
     ]
   end
     
